@@ -1,0 +1,99 @@
+\documentclass{beamer}
+
+\usetheme{dnb}
+
+\author{First Author}
+\institute{De Nederlandsche Bank}
+\title{A Latex template for employees of DeNederlandscheBank }
+\subtitle{with complements from the Research Department}
+\titlegraphic{\includegraphics[width=4cm]{logo2}}
+
+\begin{document}
+
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+% ========================================================================
+
+\begin{frame}
+The views expressed do not necessarily reflect the views of De Nederlandsche Bank or European System of Central Banks.
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Introduction}
+Why not use latex?
+    \begin{itemize}
+    \item has a steep learning curve
+    \item sometimes frustrating
+    \end{itemize}
+Why use latex?
+    \begin{itemize}
+    \item it's clean
+    \item powerpoint is \emph{more} frustrating
+    \item because all good things in life are free
+    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Tables are 'easy'} 
+
+\begin{table}
+\tiny
+\begin{center}
+\caption[]{Caption}
+\begin{tabular}{lccccc}
+\multicolumn{4}{l}{} \\
+\hline
+\parbox[t]{3cm}{} 
+& \parbox[t]{2cm}{c1} 
+& \parbox[t]{2cm}{c2} 
+& \parbox[t]{2cm}{c3} \\
+\hline
+\multicolumn{4}{l}{} \\
+\multicolumn{4}{l}{\it heading 1} \\ \cline{1-1}
+\multicolumn{4}{l}{} \\
+\parbox[t]{3cm}{row1} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} \\
+\parbox[t]{3cm}{row2}
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} \\
+\multicolumn{4}{l}{} \\
+\multicolumn{4}{l}{\it heading 2} \\ \cline{1-1}
+\multicolumn{4}{l}{} \\
+\parbox[t]{3cm}{row3} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} \\
+\parbox[t]{3cm}{row4}
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} 
+& \parbox[t]{2cm}{.} \\
+\multicolumn{4}{l}{} \\
+\hline
+\end{tabular}
+\label{cooltable}
+\end{center}
+\end{table}
+
+q.e.d.
+\end{frame}
+
+\begin{frame}
+\frametitle{Figures too}
+\begin{figure}
+\includegraphics[scale=.4]{dnbwp.eps}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Conclusion}
+Slides in Latex. Why go through all the hassle? Well why not?
+\end{frame}
+
+\end{document}
