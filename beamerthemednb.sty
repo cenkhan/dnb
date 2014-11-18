@@ -1,0 +1,83 @@
+% contact: Cenkhan Sahin for questions
+\DeclareOptionBeamer{compress}{\beamer@compresstrue}
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+\def\logo{%
+  \raisebox{1pt}{\includegraphics[scale=.25]{logo.pdf}}%
+}
+
+\useinnertheme{circles}
+\setbeamercolor{structure}{fg=black}
+\setbeamercolor{titlelike}{parent=structure}
+\setbeamercolor{frametitle}{fg=black}
+\setbeamercolor{title}{fg=black}	
+\setbeamercolor{item}{fg=black}
+%\setbeamertemplate{navigation symbols}{}
+
+\usepackage{xcolor}
+% http://www.computerhope.com/htmcolor.htm
+\definecolor{dnbblue}{HTML}{2F2482}
+\definecolor{dnbback}{HTML}{7B98AD}
+
+\usepackage{tikz}
+\usepackage{pdfrender}
+\usetikzlibrary{shapes,arrows}
+\setbeamerfont{author}{size=\Large}
+\setbeamerfont{title}{size=\fontsize{16}{22}}
+\setbeamerfont{subtitle}{size=\Large\normalfont\slshape}
+
+\setbeamertemplate{title page}{%
+
+\begin{tikzpicture}[remember picture,overlay]
+\fill [dnbback] (-1,4.5) rectangle (12,-6);
+\fill [dnbblue] (-0.5,1.5) rectangle (11,-2.5);
+\node[anchor=west] 
+  at ([yshift=-30pt,xshift=20pt]current page.west) (author)
+  {\parbox[t]{\textwidth}{\raggedright%
+    \usebeamerfont{author}\textcolor{gray}{%
+    \textpdfrender{
+    TextRenderingMode=FillStroke,
+    FillColor=gray,
+    LineWidth=.1ex,
+    }{\insertauthor}}}};
+\node[anchor=west] 
+  at ([yshift=-70pt,xshift=10pt]current page.west) (logo)
+  {\parbox[t]{\paperwidth}{\raggedright%
+    \usebeamercolor[fg]{titlegraphic}\inserttitlegraphic}};
+\node[anchor= west]
+  at ([yshift=38pt,xshift=20pt]current page.west) (title)
+  {\parbox[t]{\textwidth}{\raggedright%
+ \usebeamerfont{title}\textcolor{white}{%
+    \textpdfrender{
+    TextRenderingMode=FillStroke,
+    FillColor=white,
+    LineWidth=.1ex,
+    }{\inserttitle}}}};
+\node[anchor=west]
+  at ([yshift=3pt,xshift=20pt]current page.west) (subtitle)
+  {\parbox[t]{\textwidth}{\raggedright\usebeamerfont{subtitle}\textcolor{white}{\insertsubtitle}}};
+\end{tikzpicture}
+}
+
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+\begin{beamercolorbox}[wd=.9\paperwidth,ht=2.25ex,dp=1ex,%
+        leftskip=.3cm,rightskip=.3cm plus1fil]{separation line}
+        \usebeamerfont{section in head/foot} \logo
+    \end{beamercolorbox}
+%  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+%    \usebeamerfont{author in head/foot}\insertshortauthor
+%  \end{beamercolorbox}%
+   \begin{beamercolorbox}[wd=.1\paperwidth,ht=2.25ex,dp=1ex,center]{date in head/foot}%
+    \insertframenumber{} / \inserttotalframenumber\hspace*{1ex}
+  \end{beamercolorbox}}%
+    \vskip0pt%
+}
+
+\mode
+<all>
+
