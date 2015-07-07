@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.4)  7 JUL 2015 12:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.4)  7 JUL 2015 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -815,7 +815,7 @@ LaTeX Font Info:    Try loading font information for OT1+MinionPro-OsF on input 
 File: OT1MinionPro-OsF.fd 2005/01/23 v2.0 font definitions for OT1/MinionPro-OsF.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/MinionPro-FontDef.sty
 File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
-)))) (/Users/cenkhan/Research/dnb/dnb-git/paper/.texpadtmp/paper.aux)
+)))) (/Users/cenkhan/Research/dnb/dnb-git/wp/.texpadtmp/paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -882,7 +882,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 4.
 LaTeX Info: Redefining \pageref on input line 4.
 LaTeX Info: Redefining \nameref on input line 4.
- (/Users/cenkhan/Research/dnb/dnb-git/paper/.texpadtmp/paper.out) (/Users/cenkhan/Research/dnb/dnb-git/paper/.texpadtmp/paper.out)
+ (/Users/cenkhan/Research/dnb/dnb-git/wp/.texpadtmp/paper.out) (/Users/cenkhan/Research/dnb/dnb-git/wp/.texpadtmp/paper.out)
 \@outlinefile=\write4
 \openout4 = `paper.out'.
 
@@ -896,28 +896,66 @@ Overfull \hbox (5.03325pt too wide) in paragraph at lines 6--7
 
 
 {/Users/cenkhan/Library/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 8.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 8.
- (/Users/cenkhan/Research/dnb/dnb-git/paper/.texpadtmp/paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 8.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 8.
+LaTeX Font Info:    Font shape `OT1/MinionPro-OsF/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/MinionPro-OsF/b/n' tried instead on input line 22.
+LaTeX Font Info:    Try loading font information for T1+MinionPro-OsF on input line 22.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/T1MinionPro-OsF.fd
+File: T1MinionPro-OsF.fd 2005/01/23 v2.0 font definitions for T1/MinionPro-OsF.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/MinionPro-FontDef.sty
+File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
+))
+LaTeX Font Info:    Try loading font information for OML+MinionPro-TOsF on input line 22.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/OMLMinionPro-TOsF.fd
+File: OMLMinionPro-TOsF.fd 2005/01/23 v2.0 font definitions for OML/MinionPro-TOsF.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/MinionPro-FontDef.sty
+File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
+))
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for TS1+MinionPro-OsF on input line 22.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/TS1MinionPro-OsF.fd
+File: TS1MinionPro-OsF.fd 2005/01/23 v2.0 font definitions for TS1/MinionPro-OsF.
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/MinionPro/MinionPro-FontDef.sty
+File: MinionPro-FontDef.sty 2007/02/01 v2.2 font definition macros
+))
+LaTeX Font Info:    Font shape `OT1/MinionPro-OsF/bx/n' in size <10> not available
+(Font)              Font shape `OT1/MinionPro-OsF/b/n' tried instead on input line 23.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+[2
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 39.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 39.
+ (/Users/cenkhan/Research/dnb/dnb-git/wp/.texpadtmp/paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 39.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 39.
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 8.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 39.
  ) 
 Here is how much of TeX's memory you used:
- 28339 strings out of 493117
- 645815 string characters out of 6135434
- 752059 words of memory out of 5000000
- 31371 multiletter control sequences out of 15000+600000
- 9262 words of font info for 20 fonts, out of 8000000 for 9000
+ 29077 strings out of 493117
+ 663465 string characters out of 6135434
+ 753059 words of memory out of 5000000
+ 32000 multiletter control sequences out of 15000+600000
+ 247188 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,5n,78p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/MinionPro/base-MinionPro-ab.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/MinionPro/base-MinionPro-aa.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/adobe/MinionPro/MinionPro-Regular.pfb>
-Output written on /Users/cenkhan/Research/dnb/dnb-git/paper/.texpadtmp/paper.pdf (1 page, 45167 bytes).
+ 59i,8n,78p,722b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/MinionPro/base-MinionPro-aa.enc}{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/MinionPro/base-MinionPro-ab.enc}</usr/local/texlive/2014/texmf-dist/fonts/type1/adobe/MinionPro/MinionPro-Bold.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/adobe/MinionPro/MinionPro-It.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/adobe/MinionPro/MinionPro-Regular.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol9.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on /Users/cenkhan/Research/dnb/dnb-git/wp/.texpadtmp/paper.pdf (2 pages, 160069 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 46 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 3 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
